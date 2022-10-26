@@ -4,8 +4,8 @@ A C# application for solving wordle puzzles, adapted from my previous console ba
 
 To download and use the program, you'll only need to download 'Wordle Solve.exe'
 
-I first adapted my previous python code to work as a console application in C#. Once everything was working identically to the previous application, I begun to design a UI using WinForms. Then I started to adapt the console application code to suit a WinForms application, which definitely isn't the most efficient way to do things, but it does the job.
+I first adapted my previous python code to work as a console application in C#. Once everything was working identically to the previous application, I begun to design a UI using WinForms and adapt the console application code to suit a WinForms application.
 
-I didn't use any templates for the UI, so everything you see is designed from scratch and I really enjoyed making the UI both functional and aesthetically pleasing (at least in my opinion). I also implemented a custom header, which allows the window to be closed, minimised and dragged, as well as implementing a toggleable 'lock' which keeps the window displayed on top.
+The UI is designed from scratch in WinForms, which is a huge improvement over the original console based program. I also implemented a custom header, which allows the window to be closed, minimised and dragged, as well as implementing a toggleable 'lock' which keeps the window displayed on top.
 
 There are a few places where I'd like to improve the code, such as the 'UpdateGrid' method which contains a lot of repetition, but overall it's much more presentable than the previous console versions.
